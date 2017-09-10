@@ -1,0 +1,22 @@
+helloapp:- this is the folder for the app
+manage.py :- this python file is used to create all the apps in the django.
+
+Command info for manage.py
+
+1) APP CREATION:-
+python manage.py startapp <app_name>
+
+2) To Run Server:-
+python manage.py runserver
+
+3) Migration:-
+python manage.py migrate
+*** 
+Migrations make it easy for you to change your database schema(model)
+without having to lose any data. Any time you create a new database model,
+running migraions will update your database tables to use the new schema
+without you having to lose any data or go through the tedious process of
+dropping and recreating the database yourself.
+***
+
+*** Don't forget to register the app into settings.py ***

@@ -1,0 +1,18 @@
+settings.py:- this is the file that holds all the project settings
+urls.py:- this handels routes in your project
+
+
+
+Changes to be done:-
+
+
+In settings.py:-
+TIME_ZONE => 'Asia/Calcutta'
+
+*** Important ***
+1)It is important to note that Django apps follow the Model, View, Template paradigm. In a nutshell, the app gets data from a model, the view does something to the data and then renders a template containing the processed information. As such, Django templates correspond to views in traditional MVC and Django views can be likened to the controllers found in traditional MVC.
+2)Don't forget to register all the apps in the settings.py.
+*** MVC=> Model View Controller
+
+Model provides data to the views
+Views process and render the template
